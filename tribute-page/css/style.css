@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+
+body {
+  background: #ebc2c0;
+  color: #565171;
+}
+
+#main {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+#title {
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+}
+
+#img-div {
+    margin: 0 auto;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #312e44;
+  font-weight: 900;
+}
